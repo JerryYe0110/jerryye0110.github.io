@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Jerry Ye
+subtitle: Blog
 description: ''
 keywords:
-author: John Doe
+author: Jerry Ye
 language: en
 timezone: ''
 
@@ -44,7 +44,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -97,9 +97,18 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: git@github.com:JerryYe0110/jerryye0110.github.com.git
+
+# Post wordcount display settings
+# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  symbols: false
+  time: true
+  total_symbols: false
+  total_time: false
