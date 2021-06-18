@@ -1,5 +1,8 @@
 ---
 title: Hello World
+type:
+  - hello
+  - new
 ---
 hi
 <!--More-->
