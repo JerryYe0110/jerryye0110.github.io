@@ -1,4 +1,4 @@
 ---
-types: "tags"
+type: "tags"
 comments: false
 ---
